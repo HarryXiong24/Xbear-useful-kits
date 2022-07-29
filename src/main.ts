@@ -1,3 +1,3 @@
-import { globScan, scan } from './code-scan';
+import { scan } from './code-scan';
 
-export { globScan, scan };
+export default scan;

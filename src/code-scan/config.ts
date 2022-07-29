@@ -1,8 +1,16 @@
-// 默认扫描文件
-export const FILE_TYPE = '/**/*.?(js|jsx|ts|tsx|vue)';
+import { DefaultParam } from './types';
 
-// 默认忽略的文件夹
-export const DEFAULT_IGNORE = [
+// 默认的根路径
+const ROOT_PATH = '.';
+
+// 默认扫描文件
+const SCAN_FILE_TYPE = '/**/*.?(js|jsx|ts|tsx|vue)';
+
+// 默认 ignore 文件名
+const IGNORE_CONFIG_FILE = '.gitignore';
+
+// 默认忽略的文件规则
+const IGNORE_RULES = [
   '/node_modules/**/*',
   '/build/**/*',
   '/dist/**/*',
@@ -11,14 +19,11 @@ export const DEFAULT_IGNORE = [
   '/common_build/**/*',
 ];
 
-// ignore 文件名
-export const IGNORE_FILE_NAME = '.gitignore';
-
 // 默认参数
-export const DEFAULT_PARAM = {
-  rootPath: '.',
-  ignoreRules: [],
-  isDefaultIgnore: true,
-  file_type: FILE_TYPE,
-  ignoreFileName: IGNORE_FILE_NAME,
+export const DEFAULT_PARAM: DefaultParam = {
+  root_path: ROOT_PATH,
+  ignore_rules: IGNORE_RULES,
+  is_open_default_ignore: true,
+  scan_file_type: SCAN_FILE_TYPE,
+  ignore_config_file: IGNORE_CONFIG_FILE,
 };
