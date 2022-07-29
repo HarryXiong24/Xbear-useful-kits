@@ -18,7 +18,10 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "declaration": true,
+    "declarationMap": true,
+    "declarationDir": "./lib/types"
   },
   "exclude": ["node_modules", "dist", "dist-ssr", "public"],
   "include": ["example", "src", "test"]

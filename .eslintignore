@@ -8,3 +8,4 @@ coverages
 rollup.config.js
 types
 commitlint.config.js
+lib

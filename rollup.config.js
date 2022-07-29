@@ -34,6 +34,7 @@ export default {
   ],
   watch: {
     include: 'src/**',
+    exclude: ['example/**', 'test/**'],
   },
   plugins: [
     typescript(),
