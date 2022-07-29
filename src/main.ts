@@ -1,4 +1,3 @@
-export default function Demo() {
-  console.log('test');
-  return true;
-}
+import { globScan, scan } from './code-scan';
+
+export { globScan, scan };

@@ -1,7 +1,7 @@
 {
-  "name": "rollup-ts-kit-start",
+  "name": "xbear-useful-kits",
   "version": "1.0.0",
-  "description": "A template for quickly developing kits with Typescript and Rollup.",
+  "description": "Some useful kits.",
   "main": "main.js",
   "scripts": {
     "dev": "ts-node ./example/test.ts",
@@ -83,5 +83,9 @@
       "eslint",
       "git add"
     ]
+  },
+  "dependencies": {
+    "glob": "^8.0.3",
+    "ignore": "^5.2.0"
   }
 }

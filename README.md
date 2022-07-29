@@ -1,15 +1,15 @@
-# rollup-ts-kit-starter
+# Xbear-useful-kits
 
 ## Description
 
-A template for quickly developing kits with Typescript and Rollup.
+Some useful kits.
 
 ## Usage
 
 ```bash
 # Clone it from Github.
-$ git clone https://github.com/HarryXiong24/rollup-ts-kit-starter.git
-$ cd rollup-ts-kit-starter
+$ git clone https://github.com/HarryXiong24/Xbear-useful-kits.git
+$ cd Xbear-useful-kits
 ```
 
 ```bash
