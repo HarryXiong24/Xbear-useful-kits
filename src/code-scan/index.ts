@@ -3,7 +3,7 @@ import fs from 'fs';
 import glob from 'glob';
 import ignore from 'ignore';
 import { DEFAULT_IGNORE_RULES, DEFAULT_PARAM } from './config';
-import { DefaultParam } from './types';
+import { DefaultScanParam } from './types';
 
 /**
  * @param {string} root_path 根目录
@@ -85,8 +85,8 @@ function filterFilesByIgnore(
  * @return {*}
  * @description: 执行扫描
  */
-export async function scan(config: Partial<DefaultParam>) {
-  const param: DefaultParam = Object.assign(DEFAULT_PARAM, config);
+export async function scanFile(config: Partial<DefaultScanParam>) {
+  const param: DefaultScanParam = Object.assign(DEFAULT_PARAM, config);
 
   const {
     root_path,
@@ -118,3 +118,5 @@ export async function scan(config: Partial<DefaultParam>) {
 
   return result;
 }
+
+export default scanFile;

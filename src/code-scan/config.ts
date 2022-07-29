@@ -1,4 +1,4 @@
-import { DefaultParam } from './types';
+import { DefaultScanParam } from './types';
 
 // 默认的根路径
 const ROOT_PATH = '.';
@@ -20,7 +20,7 @@ export const DEFAULT_IGNORE_RULES = [
 ];
 
 // 默认参数
-export const DEFAULT_PARAM: DefaultParam = {
+export const DEFAULT_PARAM: DefaultScanParam = {
   root_path: ROOT_PATH,
   ignore_rules: [],
   is_open_default_ignore: true,

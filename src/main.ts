@@ -1,3 +1,4 @@
-import { scan } from './code-scan';
+import scanFile from './code-scan';
+import scanLine from './code-line';
 
-export default scan;
+export { scanFile, scanLine };

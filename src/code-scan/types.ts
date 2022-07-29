@@ -1,4 +1,4 @@
-export interface DefaultParam {
+export interface DefaultScanParam {
   root_path: string;
   ignore_rules: string[];
   is_open_default_ignore: boolean;
