@@ -4,7 +4,7 @@
   "description": "Some useful kits.",
   "main": "main.js",
   "scripts": {
-    "dev": "ts-node ./example/test.ts",
+    "dev": "ts-node ./example/index.ts",
     "build": "cross-env NODE_ENV=production rollup -c",
     "test": "jest",
     "test:cov": "jest --coverage",
