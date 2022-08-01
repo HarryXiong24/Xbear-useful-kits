@@ -84,6 +84,11 @@
       "git add"
     ]
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn run lint-staged"
+    }
+  },
   "dependencies": {
     "glob": "^8.0.3",
     "ignore": "^5.2.0"
